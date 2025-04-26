@@ -1,7 +1,7 @@
 {
   "name": "eportfolio",
   "version": "0.1.0",
-  "homepage": "jliang2204.github.io/jliang.github.io",
+  "homepage": "jliang2204.github.io/EPortfolio",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
