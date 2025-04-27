@@ -161,6 +161,16 @@ code {
   margin-right: 1px;
 }
 
+.cover img {
+  height: 1056px;
+  width: 816px;
+}
+
+.cover h5 {
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
 .resume-button {
   display: inline-block;
   padding: 10px 20px;
@@ -178,7 +188,145 @@ code {
 
 .cover h5 {
   font-size: 1.5rem;
-  text-align: left;
-  margin-left: 450px;
+  text-align: center;
 }
 
+.PPS {
+  margin-top: -15px;
+}
+
+.PPS h6 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.PPS p {
+  max-width: 1000px;
+  margin: 10px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.probib {
+  margin-top: 30px;
+}
+
+.probib h7 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.probib img {
+  margin-top: 15px;
+  align-items: center;
+  margin-right: 23px;
+  height: 1056px;
+  width: 816px;
+}
+
+.probib ul {
+  list-style: none;
+}
+
+.projects {
+  margin-top: 30px;
+}
+
+.projects h8 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.projects ul {
+  margin-top: -25px;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects li {
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 19px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:focus {
+  outline: 2px solid #3b8c3b;
+}
+
+.button:active {
+  background-color: #388e8c;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.github {
+  background: #fff;
+  padding: 4px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.Contact {
+  margin-top: 30px;
+}
+
+.Contact h9 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Goals {
+  margin-top: 30px;
+}
+
+.Goals h10 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Goals ul {
+  list-style: none;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+.coverletter {
+  margin-top: 10px;
+}
