@@ -4,6 +4,7 @@ import bib1 from "./images/Bib1.jpg";
 import bib2 from "./images/Bib2.jpg";
 import gitlogo from "./images/github-original.svg"
 import linkedinlogo from "./images/linkedin.jpg"
+import resume from "./images/JustinLiang Resume.pdf"
 
 function App() {
   const [activeSection, setActiveSection] = useState(() => {
@@ -32,7 +33,7 @@ function App() {
         <div>
           <h1 className="name">Justin Liang</h1>
           <p className="subtitle">Software Engineer | Frontend Developer</p>
-          <a href="/JustinLiang Resume.pdf" download className="resume-button">Download Resume</a>
+          <a href={resume} download="JustinLiang Resume.pdf" className="resume-button">Download Resume</a>
 
           {/* About me */}
           <section className="about">
@@ -98,13 +99,13 @@ function App() {
         <div>
         <h1 className="name">Justin Liang</h1>
         <p className="subtitle">Software Engineer | Frontend Developer</p>
-        <a href="/JustinLiang Resume.pdf" download className="resume-button">Download Resume</a>
+        <a href={resume} download="JustinLiang Resume.pdf" className="resume-button">Download Resume</a>
 
         {/* Cover Letter */}
         <section className="cover">
           <h5>Cover Letter</h5>
           <p><a href="/Cover Letter.pdf" download className="button">Download Cover Letter</a></p>
-          <img src={coverLetter} className="coverletter" alt="logo" />
+          <img src={coverLetter} className="coverletter" alt="Cover Letter" />
         </section>
         </div>
       )}
@@ -113,7 +114,7 @@ function App() {
         <div>
           <h1 className="name">Justin Liang</h1>
           <p className="subtitle">Software Engineer | Frontend Developer</p>
-          <a href="/JustinLiang Resume.pdf" download className="resume-button">Download Resume</a>
+          <a href={resume} download="JustinLiang Resume.pdf" className="resume-button">Download Resume</a>
 
           {/* Professional Philosophy Statement */}
           <section className="PPS">
@@ -161,7 +162,7 @@ function App() {
         <div>
           <h1 className="name">Justin Liang</h1>
           <p className="subtitle">Software Engineer | Frontend Developer</p>
-          <a href="/JustinLiang Resume.pdf" download className="resume-button">Download Resume</a>
+          <a href={resume} download="JustinLiang Resume.pdf" className="resume-button">Download Resume</a>
 
           {/* Professional Bibliography */}
           <section className="probib">
@@ -179,7 +180,7 @@ function App() {
         <div>
           <h1 className="name">Justin Liang</h1>
           <p className="subtitle">Software Engineer | Frontend Developer</p>
-          <a href="/JustinLiang Resume.pdf" download className="resume-button">Download Resume</a>
+          <a href={resume} download="JustinLiang Resume.pdf" className="resume-button">Download Resume</a>
 
           {/* List of Projects */}
           <section className="projects">
@@ -234,7 +235,7 @@ function App() {
         <div>
           <h1 className="name">Justin Liang</h1>
           <p className="subtitle">Software Engineer | Frontend Developer</p>
-          <a href="/JustinLiang Resume.pdf" download className="resume-button">Download Resume</a>
+          <a href={resume} download="JustinLiang Resume.pdf" className="resume-button">Download Resume</a>
 
           {/* Contact Information */}
           <section className="Contact">
@@ -260,7 +261,7 @@ function App() {
         <div>
           <h1 className="name">Justin Liang</h1>
           <p className="subtitle">Software Engineer | Frontend Developer</p>
-          <a href="/JustinLiang Resume.pdf" download className="resume-button">Download Resume</a>
+          <a href={resume} download="JustinLiang Resume.pdf" className="resume-button">Download Resume</a>
 
           {/* Goals */}
           <section className="Goals">
