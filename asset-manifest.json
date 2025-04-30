@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/EPortfolio/static/css/main.70e0c90f.css",
-    "main.js": "/EPortfolio/static/js/main.402171d0.js",
+    "main.js": "/EPortfolio/static/js/main.be3817e2.js",
     "static/js/453.0394f42a.chunk.js": "/EPortfolio/static/js/453.0394f42a.chunk.js",
     "static/media/Bib1.jpg": "/EPortfolio/static/media/Bib1.3fff2fc78fb6ba44f305.jpg",
     "static/media/Bib2.jpg": "/EPortfolio/static/media/Bib2.2339038eca82487cd233.jpg",
+    "static/media/JustinLiang Resume.pdf": "/EPortfolio/static/media/JustinLiang Resume.0a0832eb5e52a7094eec.pdf",
     "static/media/coverletter.jpg": "/EPortfolio/static/media/coverletter.5343f1450324ad970b4e.jpg",
     "static/media/linkedin.jpg": "/EPortfolio/static/media/linkedin.7a5b234dcafa67175804.jpg",
     "static/media/github-original.svg": "/EPortfolio/static/media/github-original.3c903c66b2c5334c8c0b80567c4ea422.svg",
     "index.html": "/EPortfolio/index.html",
     "main.70e0c90f.css.map": "/EPortfolio/static/css/main.70e0c90f.css.map",
-    "main.402171d0.js.map": "/EPortfolio/static/js/main.402171d0.js.map",
+    "main.be3817e2.js.map": "/EPortfolio/static/js/main.be3817e2.js.map",
     "453.0394f42a.chunk.js.map": "/EPortfolio/static/js/453.0394f42a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70e0c90f.css",
-    "static/js/main.402171d0.js"
+    "static/js/main.be3817e2.js"
   ]
 }
