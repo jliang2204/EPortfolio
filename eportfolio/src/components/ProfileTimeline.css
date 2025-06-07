@@ -1,0 +1,91 @@
+.timeline {
+    max-width: 800px;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.timeline-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.timeline-tabs button {
+    background:#2a46e9;
+    color: #fff;
+    border: 0;
+    padding: .5rem 1.4rem;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background .25s;
+}
+
+.timeline-tabs button.active,
+.timeline-tabs button:hover {
+    background: #030181;
+}
+
+.timeline-list {
+    list-style: none;
+    padding: 0 0 0 1.5rem;
+    position: relative;
+    margin: 0;
+}
+
+.timeline-list::before {
+    content:"";
+    position: absolute;
+    left: .55rem;
+    top: .2rem;
+    bottom: 0;
+    width: 2px;
+    background: #444;
+}
+
+.timeline-list li {
+    margin: 0 0 2rem 0;
+    position: relative;
+}
+
+.bullet {
+    position: absolute;
+    left: -.8rem;
+    top: .35rem;
+    width: 10px;
+    height: 10px;
+    background: #2a46e9;
+    border-radius: 50%;
+}
+
+.timeline-list h4 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.05rem;
+}
+
+.timeline-list .meta {
+    font-size: .85rem;
+    color: #aaa;
+}
+
+.points {
+    list-style: none;
+    margin: .1rem 0;
+    padding-left: 5rem;
+    text-align: left;
+}
+
+.points li {
+    margin: .5rem 0;
+}
+
+@media(max-width: 600px) {
+    .timeline {
+        padding: 0 1rem;
+    }
+
+    .timeline-tabs {
+        flex-wrap: wrap;
+    }
+}

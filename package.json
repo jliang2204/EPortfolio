@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "next.js": "^1.0.3",
+    "openai": "^5.0.2"
+  }
+}
