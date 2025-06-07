@@ -6,6 +6,14 @@ export default function ProfileTimeline() {
 
     const experience = [
         {
+            title: "Undergraduate Research Machine Learning Group",
+            place : "under Dr. Dimitry Babichenko",
+            date: "April 2025-Current",
+            points: [
+                "- Creating alt-texts for 60,000 photos interacting with ChatGPT API with a focus on prompt engineering",
+            ]
+        },
+        {
             title : "Software Engineer Intern",
             place : "Wayne State University Car Lab",
             date : "May-June 2022",
@@ -14,30 +22,20 @@ export default function ProfileTimeline() {
                 "- Gained hands-on experience with ROS (Robot Operating System) and Docker."
             ]
         },
-        {
-            title : "Cashier - Meijer",
-            place : "Commerce Township, Michigan",
-            date : "May-Aug 2023",
-            points: [
-                "- Handled checkout lanes while positively interacting with customers",
-                "- Assisted customers at self-checkout counters, answering questions and helping with transactions",
-                "- Achieved target productivity in just 3 weeks, compared to the typical 12-week expectation for new employees"
-            ]
-        },
     ];
 
     const education = [
-        {
-            title : "Student",
-            place : "Cranbrook Highschool",
-            date : "2018-2022",
-            points : []
-        },
         {
             title : "B.S. Computer Science",
             place : "University of Pittsburgh",
             date : "2022-2026 [expected]",
             points : ["- Minor in Information Technology"]
+        },
+        {
+            title : "Student",
+            place : "Cranbrook Highschool",
+            date : "2018-2022",
+            points : []
         },
     ];
 
