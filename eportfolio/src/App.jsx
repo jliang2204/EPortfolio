@@ -41,6 +41,10 @@ function App() {
               JavaScript
             </li>
             <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" />
+              TypeScript
+            </li>
+            <li>
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" />
               CSS
             </li>
@@ -55,6 +59,10 @@ function App() {
             <li>
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="Flask"/>
               Flask
+            </li>
+            <li>
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" alt="Rust"/>
+              Rust
             </li>
           </ul>
       </section>
@@ -201,7 +209,7 @@ function ProjectsCarousel() {
     },
     {
       title: "Classifying AlphaZero King Positioning",
-      link: "https://nbviewer.org/github/jliang2204/ClassifyAlphaZero/blob/main/jsl86_finalproject.ipynb",
+      link: "https://github.com/jliang2204/ClassifyAlphaZero/blob/main/jsl86_finalproject.ipynb",
       buttonName: "Open in new tab",
     },
     {

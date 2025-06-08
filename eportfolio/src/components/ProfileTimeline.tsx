@@ -9,15 +9,28 @@ export default function ProfileTimeline() {
             title: "Undergraduate Research Machine Learning Group",
             place : "under Dr. Dimitry Babichenko",
             date: "April 2025-Current",
-            points: [
-                "- Creating alt-texts for 60,000 photos interacting with ChatGPT API with a focus on prompt engineering",
+            points : [
+                "- Recreating vignettes in 3D Unity as a virtual museum of historically significant photos",
+                "- Using ML models to tag objects in these photos as identifiers as well as allowing photos to be grouped",
+                "- Interacting with ChatGPT API to create  alt-text for the photos with emphasis on prompt-engineering for concise and consistent  alt-text that does not contradict the descriptions",
+                "- Handling large number of photos(~60,000) and working around rate-limits and using batching to process the photos"
+            ]
+        },
+        {
+            title : "Game Development",
+            place : "Independent Work",
+            date : "May-August 2024",
+            points : [
+                "- Developed a \"Jump-King\"-style game in Unity",
+                "- Built a functional chess board in Unity",
+                "- Designed and implemented a responsive platformer player controller in Unity, incorporating mechanics like variable jump height, coyote time, and jump buffering for  smooth and precise user control",
             ]
         },
         {
             title : "Software Engineer Intern",
             place : "Wayne State University Car Lab",
             date : "May-June 2022",
-            points: [
+            points : [
                 "- Developed applications in Python and learned how to use TurtleBot and navigate mazes",
                 "- Gained hands-on experience with ROS (Robot Operating System) and Docker."
             ]
